@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1947E0AF-BCEA-42BD-9B97-334A3A06AF8E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C566D4F2-66AA-4D82-941A-4588C7EF16D3}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "NetCoreShiftJisDemo.ConsoleApp", "src\NetCoreShiftJisDemo.ConsoleApp\NetCoreShiftJisDemo.ConsoleApp.xproj", "{62DDCF14-5D50-480F-8940-01C097CC0484}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "NetCoreShiftJisDemo.ClassLib", "src\NetCoreShiftJisDemo.ClassLib\NetCoreShiftJisDemo.ClassLib.xproj", "{7108AC89-30E6-4643-9A20-E5B17CE841F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62DDCF14-5D50-480F-8940-01C097CC0484}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62DDCF14-5D50-480F-8940-01C097CC0484}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62DDCF14-5D50-480F-8940-01C097CC0484}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62DDCF14-5D50-480F-8940-01C097CC0484}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7108AC89-30E6-4643-9A20-E5B17CE841F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7108AC89-30E6-4643-9A20-E5B17CE841F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7108AC89-30E6-4643-9A20-E5B17CE841F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7108AC89-30E6-4643-9A20-E5B17CE841F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{62DDCF14-5D50-480F-8940-01C097CC0484} = {1947E0AF-BCEA-42BD-9B97-334A3A06AF8E}
+		{7108AC89-30E6-4643-9A20-E5B17CE841F6} = {1947E0AF-BCEA-42BD-9B97-334A3A06AF8E}
+	EndGlobalSection
+EndGlobal
